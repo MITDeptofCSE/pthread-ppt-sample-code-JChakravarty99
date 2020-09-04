@@ -33,4 +33,4 @@ void *runner(void *param)
 	for (i = 1; i <= upper; ++i)
 		sum += i;
 	pthread_exit(0);
-}
+} 
